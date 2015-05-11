@@ -1,0 +1,22 @@
+﻿Build started 2015-05-03 10:16:55 PM.
+     1>Project "c:\Users\Shiva\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\VC\bin\CL.exe /c /IC:\opencv\build\include /I"C:\Program Files (x86)\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK\include\compat" /I"C:\Program Files (x86)\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK\include\cpprest" /I"C:\Program Files (x86)\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK\include\pplx" /I"C:\Program Files (x86)\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\shiva\documents\visual studio 2013\projects\consoleapplication4\consoleapplication4\source.cpp(181): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Program Files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\shiva\documents\visual studio 2013\Projects\ConsoleApplication4\Debug\ConsoleApplication4.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib /LIBPATH:"C:\Program Files (x86)\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK\lib\x86\Debug" opencv_ts300d.lib opencv_world300d.lib cpprest120d_1_4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\shiva\documents\visual studio 2013\Projects\ConsoleApplication4\Debug\ConsoleApplication4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\shiva\documents\visual studio 2013\Projects\ConsoleApplication4\Debug\ConsoleApplication4.lib" /MACHINE:X86 Debug\Source.obj
+         ConsoleApplication4.vcxproj -> c:\users\shiva\documents\visual studio 2013\Projects\ConsoleApplication4\Debug\ConsoleApplication4.exe
+       PostBuildEvent:
+         
+                 copy /y "C:\Program Files (x86)\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK\bin\x86\Debug\cpprest120d_1_4.dll" "c:\users\shiva\documents\visual studio 2013\Projects\ConsoleApplication4\Debug\"
+                 copy /y "C:\Program Files (x86)\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK\bin\x86\Debug\cpprest120d_1_4.pdb" "c:\users\shiva\documents\visual studio 2013\Projects\ConsoleApplication4\Debug\"
+               
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "c:\Users\Shiva\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.77
